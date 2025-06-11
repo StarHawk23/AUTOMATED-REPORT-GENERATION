@@ -1,6 +1,5 @@
 import csv
 
-# Correct student data
 students = [
     ["Name", "Roll No", "Marks"],
     ["Sriram", 101, 95],
@@ -12,7 +11,6 @@ students = [
     ["Vamsi", 107, 92]
 ]
 
-# Write to CSV file
 with open("students.csv", "w", newline="") as file:
     writer = csv.writer(file)
     writer.writerows(students)
